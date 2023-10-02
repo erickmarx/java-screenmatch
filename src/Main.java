@@ -1,14 +1,12 @@
+import screenmatch.models.Movie;
+
 public class Main {
     public static void main(String[] args) {
         Movie movie = new Movie();
-        movie.name = "Titanic";
-        movie.releaseDate = 1997;
-        movie.inPlan = true;
-        movie.finalRating = 7.8;
-        movie.totalRating = 7.8;
-        movie.reviews = 1;
-        movie.length = 210;
-        
-        movie.rate(8.5);
+        movie.setName("Titanic");
+        movie.setReleaseDate(1997);
+        movie.setInPlan(true);
+        movie.setLength(210);
+        movie.rate(7.8);
     }
 }
