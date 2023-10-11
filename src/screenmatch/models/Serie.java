@@ -30,6 +30,6 @@ public class Serie extends Title {
     
     @Override
     public int getLength() {
-        return temps * episodes * length;
+        return temps * episodes * super.getLength();
     }
 }

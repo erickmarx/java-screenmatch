@@ -1,6 +1,6 @@
 package screenmatch.models;
 public class Title {
-    protected int length;
+    private int length;
     private String name;
     private int releaseDate;
     private boolean inPlan;
